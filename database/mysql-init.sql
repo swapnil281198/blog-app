@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS blogdb;
+
+USE blogdb;
+
+CREATE TABLE IF NOT EXISTS post (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100),
+    content TEXT
+);
